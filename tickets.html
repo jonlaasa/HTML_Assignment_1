@@ -13,6 +13,7 @@
       <a href="index.html">Inicio</a>
       <a href="tickets.html">Tickets</a>
       <a href="lineup.html">Lineup</a>
+      <a href="camping.html">Camping</a>
       <a href="faq.html">FAQS</a>
     </nav> <br>
 	 <h2> Rellena el siguiente formulario </h2>
@@ -58,7 +59,7 @@
   <!-- Selección del tipo de ticket -->
   <label for="tipo_ticket">Selecciona el tipo de ticket:</label>
   <select id="tipo_ticket" name="tipo_ticket" required>
-    <option value="" disabled selected>Selecciona un ticket</option> <!-- Opción placeholder -->
+    <option value="" disabled selected>Selecciona un ticket</option>
     <option value="tres_dias">3 Días - $150</option>
     <option value="tres_dias_premium">3 Días Premium - $250</option>
     <option value="dia_1">Día 1 - $60</option>
@@ -70,7 +71,7 @@
 
       <label for="cantidad">Cantidad:</label>
       <select id="cantidad" name="cantidad" required>
-        <option value="" disabled selected>Selecciona cantidad</option> <!-- Opción placeholder -->
+        <option value="" disabled selected>Selecciona cantidad</option>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -110,24 +111,24 @@
 
     <input type="radio" name="preparties" id="preparties_no" value="no" checked>
     <label for="preparties_no">No</label>
-    <br><br>
+    <br>
 		 </fieldset>
 	 </form>
+   <br>
+    <input type="checkbox" id="aceptar" name="aceptar">
+  <label for="aceptar">Acepto los términos y condiciones</label>
+  <br>
+  <input type="checkbox" id="info" name="info" checked>
+  <label for="info">Deseo recibir publicidad e información sobre futuros eventos</label>
+  <br>
+  <input type="submit" id = submit-btn value="Pagar">
+
 
  </main>
 
  <footer>
 
  	
-	<input type="checkbox" id="aceptar" name="aceptar">
-	<label for="aceptar">Acepto los términos y condiciones</label>
-  <br>
-	<input type="checkbox" id="info" name="info" checked>
-	<label for="info">Deseo recibir publicidad e información sobre futuros eventos</label>
-
-	<br><br>
-	<input type="submit" id = submit-btn value="Pagar">
-
     <p>Síguenos en redes sociales:</p>
     <ul>
       <li>Facebook: ElectroVibeFest</li>
