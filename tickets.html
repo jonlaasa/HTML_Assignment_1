@@ -24,8 +24,6 @@
 		 	 <!-- FORMULARIO PARA COMPRA DE TICKETS -->
        <h3> Datos personales de la compra: </h3>
 			  <!-- CAMPOS -->
-
-
  			<!-- Nombre, apellidos.... -->
 			 <label for="nombre">Nombre</label>
 			 <input type="text" name="nombre" id="nombre" required>
@@ -49,9 +47,6 @@
 	        <input type="password" name="contra" id="contra" required>
 	        <br><br>
 		 </fieldset>
-	 </form>
-	 
-	 <form>
 		 <fieldset>
 			 <h3> Tickets: </h3>
         <!-- CAMPOS -->
@@ -82,14 +77,11 @@
         <option value="8">8</option>
         <option value="9">9</option>
       </select>
-      <br><br>
-
+      <br> <br>
     <!-- Área de texto para introducir correos electrónicos -->
-    <label for="correos">Introduce los correos de los demás miembros (separados por coma):</label> <br>
+    <label for="correos">Introduce los correos de los demás miembros (separados por coma):</label> <br> <br>
     <textarea id="correos" name="correos" rows="10" cols="30" placeholder="ejemplo1@dominio.com, ejemplo2@dominio.com" ></textarea>
     <br><br>
-
-
     <!-- Radio buttons para ser socio o no -->
     <label>¿Eres socio?</label>
     <input type="radio" name="socio" id="socio_si" value="si">
@@ -113,22 +105,19 @@
     <label for="preparties_no">No</label>
     <br>
 		 </fieldset>
+     <br>
+      <input type="checkbox" id="aceptar" name="aceptar">
+      <label for="aceptar">Acepto los términos y condiciones</label>
+      <br>
+      <input type="checkbox" id="info" name="info" checked>
+      <label for="info">Deseo recibir publicidad e información sobre futuros eventos</label>
+      <br>
+      <input type="submit" id = submit-btn value="Pagar">
 	 </form>
    <br>
-    <input type="checkbox" id="aceptar" name="aceptar">
-  <label for="aceptar">Acepto los términos y condiciones</label>
-  <br>
-  <input type="checkbox" id="info" name="info" checked>
-  <label for="info">Deseo recibir publicidad e información sobre futuros eventos</label>
-  <br>
-  <input type="submit" id = submit-btn value="Pagar">
-
-
  </main>
 
  <footer>
-
- 	
     <p>Síguenos en redes sociales:</p>
     <ul>
       <li>Facebook: ElectroVibeFest</li>

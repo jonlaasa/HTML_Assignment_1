@@ -7,6 +7,7 @@ body {
     margin: 0; 
     padding: 0; 
     text-align: center; /* Centrar texto */
+    overflow-x: hidden; /* Para evitar scroll horizontal */
 }
 
 /* Estilo para todos los títulos  Igual para todos */
@@ -121,9 +122,11 @@ ul {
     text-align: center; /* Centra el contenido de la lista */
 }
 
-/* Estilo para el caso especifico de fotos de escenarios */
+/*  CLASE: Estilo para el caso especifico de fotos de escenarios */
 .escenarios {
-    list-style-type: none; /* Elimina los números de la lista */
+    display: flex; /*   Alinear los elementos en una fila */
+    justify-content: center; 
+
 }
 
 
@@ -152,7 +155,7 @@ label {
     margin-right: 10px; 
 }
 
-
+/* Para el caso esepcifico del BOTON */
 #submit-btn {
     width: 200px;  /* Ancho grande */
     height: 60px;  /* Alto grande */
